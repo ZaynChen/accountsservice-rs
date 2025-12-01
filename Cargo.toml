@@ -14,8 +14,13 @@ keywords = ["accountsservice"]
 exclude = ["gir-files/*", "accountsservice-gir-files"]
 
 [workspace.dependencies]
-gobject-sys = { git = "https://github.com/gtk-rs/gtk-rs-core.git", branch = "main", version = "0.22" }
-glib-sys = { git = "https://github.com/gtk-rs/gtk-rs-core.git", branch = "main", version = "0.22" }
-glib = { git = "https://github.com/gtk-rs/gtk-rs-core.git", branch = "main", version = "0.22" }
-gio-sys = { git = "https://github.com/gtk-rs/gtk-rs-core.git", branch = "main", version = "0.22" }
-gio = { git = "https://github.com/gtk-rs/gtk-rs-core.git", branch = "main", version = "0.22" }
+gobject-sys = { version = "0.21" }
+glib-sys = { version = "0.21" }
+glib = { version = "0.21" }
+gio-sys = { version = "0.21" }
+gio = { version = "0.21" }
+# gobject-sys = { git = "https://github.com/gtk-rs/gtk-rs-core.git", branch = "main", version = "0.22" }
+# glib-sys = { git = "https://github.com/gtk-rs/gtk-rs-core.git", branch = "main", version = "0.22" }
+# glib = { git = "https://github.com/gtk-rs/gtk-rs-core.git", branch = "main", version = "0.22" }
+# gio-sys = { git = "https://github.com/gtk-rs/gtk-rs-core.git", branch = "main", version = "0.22" }
+# gio = { git = "https://github.com/gtk-rs/gtk-rs-core.git", branch = "main", version = "0.22" }
