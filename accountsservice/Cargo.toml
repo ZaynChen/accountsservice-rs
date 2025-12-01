@@ -1,0 +1,22 @@
+[package]
+name = "accountsservice"
+description = "Rust bindings for accouontsservice"
+version.workspace = true
+edition.workspace = true
+authors.workspace = true
+categories.workspace = true
+repository.workspace = true
+license.workspace = true
+keywords.workspace = true
+exclude.workspace = true
+
+[package.metadata.docs.rs]
+all-features = true
+rustc-args = ["--cfg", "docsrs"]
+rustdoc-args = ["--cfg", "docsrs"]
+
+[dependencies]
+libc = "^0.2"
+ffi = { package = "accountsservice-sys", path = "sys" }
+glib.workspace = true
+gio.workspace = true
